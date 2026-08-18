@@ -1,0 +1,12 @@
+name: transition-aware-congestion
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.3
+  - pip
+  - pip:
+      - numpy==2.2.4
+      - pandas==2.2.3
+      - scikit-learn==1.6.1
+      - tqdm==4.67.1
+      - xgboost==3.0.2
